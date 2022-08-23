@@ -1,0 +1,27 @@
+{
+  "name": "image-creation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cron": "^2.1.0",
+    "ethers": "5.6.4",
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.34",
+    "nodemon": "^2.0.19",
+    "sharp": "^0.30.7"
+  },
+  "scripts": {
+    "build:image": "node src/image.js",
+    "start": "nodemon src/server.js",
+    "job": "nodemon src/cron.js", 
+    "create:metadata": "node src/metadata.js"
+  },
+  "devDependencies": {
+    "moralis": "^2.0.3",
+    "moralis-v1": "^1.11.0"
+  }
+}
