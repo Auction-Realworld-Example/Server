@@ -1,4 +1,4 @@
-const tokenAddress = "0x2888151aE14F1267d9495BF6DaD8cE80c50f3D4f";
+const tokenAddress = "0x861Dd54bE1CdC1bD93B3e1e678eF57B8F7AeA985";
 const tokenAbi = [
 	{ inputs: [], stateMutability: "nonpayable", type: "constructor" },
 	{
@@ -234,7 +234,6 @@ const tokenAbi = [
 		type: "function",
 	},
 ];
-
 module.exports = { tokenAddress, tokenAbi };
 
 // const tokenAddress = "0xa9497Fe60cF84723186EE04EB30a561784d4dd8c";
