@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node src/index.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cron": "^2.1.0",
+    "ethers": "^5.7.0",
+    "express": "^4.18.1",
+    "moment-timezone": "^0.5.37",
+    "nodemon": "^2.0.19"
+  },
+  "devDependencies": {
+    "moralis-v1": "^1.11.0"
+  }
+}
